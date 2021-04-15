@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5C43E3626241922006AF402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E3526241922006AF402 /* AppDelegate.m */; };
+		C5C43E3926241922006AF402 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E3826241922006AF402 /* SceneDelegate.m */; };
+		C5C43E3C26241922006AF402 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E3B26241922006AF402 /* ViewController.m */; };
+		C5C43E3F26241922006AF402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C43E3D26241922006AF402 /* Main.storyboard */; };
+		C5C43E4126241923006AF402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C43E4026241923006AF402 /* Assets.xcassets */; };
+		C5C43E4426241923006AF402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C43E4226241923006AF402 /* LaunchScreen.storyboard */; };
+		C5C43E4726241923006AF402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E4626241923006AF402 /* main.m */; };
+		C5C43E59262430C8006AF402 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E58262430C8006AF402 /* RedView.m */; };
+		C5C43E63262438C1006AF402 /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E62262438C1006AF402 /* TransformViewController.m */; };
+		C5C43E7826253DDA006AF402 /* Box3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E7626253DDA006AF402 /* Box3DViewController.m */; };
+		C5C43E7926253DDA006AF402 /* Box3DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5C43E7726253DDA006AF402 /* Box3DViewController.xib */; };
+		C5C43E7E26253F06006AF402 /* CubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E7C26253F06006AF402 /* CubeViewController.m */; };
+		C5C43E7F26253F06006AF402 /* CubeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5C43E7D26253F06006AF402 /* CubeViewController.xib */; };
+		C5C43E8926259689006AF402 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E8826259689006AF402 /* TestViewController.m */; };
+		C5C43E8E26267DF3006AF402 /* ShapeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E8D26267DF3006AF402 /* ShapeLayerViewController.m */; };
+		C5C43E9A2626914E006AF402 /* TextLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E992626914E006AF402 /* TextLayerViewController.m */; };
+		C5C43E9F26269532006AF402 /* TextLayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E9E26269532006AF402 /* TextLayerLabel.m */; };
+		C5C43EA42626E1EE006AF402 /* TransformLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43EA32626E1EE006AF402 /* TransformLayerViewController.m */; };
+		C5C43EAA2626E225006AF402 /* GradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43EA92626E225006AF402 /* GradientLayerViewController.m */; };
+		C5C43EB02626E24F006AF402 /* ReplicatorLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43EAF2626E24F006AF402 /* ReplicatorLayerViewController.m */; };
+		C5C43EC02627D29E006AF402 /* ReplicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43EBF2627D29E006AF402 /* ReplicatorView.m */; };
+		C5C43ECE2627E7AB006AF402 /* ThreeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43ECD2627E7AB006AF402 /* ThreeLayerViewController.m */; };
+		C5C43EDA2627F5B6006AF402 /* AVPlayerLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43ED92627F5B6006AF402 /* AVPlayerLayerViewController.m */; };
+		C5C43EE526280CAB006AF402 /* cyborg.m4v in Resources */ = {isa = PBXBuildFile; fileRef = C5C43EE426280CAB006AF402 /* cyborg.m4v */; };
+		C5C43EEA26282677006AF402 /* EmitterLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43EE926282677006AF402 /* EmitterLayerViewController.m */; };
+		C5C43EF226283A4F006AF402 /* RainLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43EF126283A4F006AF402 /* RainLayerViewController.m */; };
+		C5C43EF926284090006AF402 /* ClickLikeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43EF826284090006AF402 /* ClickLikeLayerViewController.m */; };
+		C5C43EFD262840AC006AF402 /* CustomLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43EFC262840AC006AF402 /* CustomLikeButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C5C43E3126241922006AF402 /* CoreAnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C43E3426241922006AF402 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5C43E3526241922006AF402 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5C43E3726241922006AF402 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C5C43E3826241922006AF402 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C5C43E3A26241922006AF402 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5C43E3B26241922006AF402 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5C43E3E26241922006AF402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5C43E4026241923006AF402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5C43E4326241923006AF402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5C43E4526241923006AF402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5C43E4626241923006AF402 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5C43E57262430C8006AF402 /* RedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		C5C43E58262430C8006AF402 /* RedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		C5C43E61262438C1006AF402 /* TransformViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformViewController.h; sourceTree = "<group>"; };
+		C5C43E62262438C1006AF402 /* TransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformViewController.m; sourceTree = "<group>"; };
+		C5C43E7526253DDA006AF402 /* Box3DViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Box3DViewController.h; sourceTree = "<group>"; };
+		C5C43E7626253DDA006AF402 /* Box3DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Box3DViewController.m; sourceTree = "<group>"; };
+		C5C43E7726253DDA006AF402 /* Box3DViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Box3DViewController.xib; sourceTree = "<group>"; };
+		C5C43E7B26253F06006AF402 /* CubeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeViewController.h; sourceTree = "<group>"; };
+		C5C43E7C26253F06006AF402 /* CubeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeViewController.m; sourceTree = "<group>"; };
+		C5C43E7D26253F06006AF402 /* CubeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CubeViewController.xib; sourceTree = "<group>"; };
+		C5C43E8726259689006AF402 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		C5C43E8826259689006AF402 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		C5C43E8C26267DF3006AF402 /* ShapeLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeLayerViewController.h; sourceTree = "<group>"; };
+		C5C43E8D26267DF3006AF402 /* ShapeLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeLayerViewController.m; sourceTree = "<group>"; };
+		C5C43E982626914D006AF402 /* TextLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextLayerViewController.h; sourceTree = "<group>"; };
+		C5C43E992626914E006AF402 /* TextLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextLayerViewController.m; sourceTree = "<group>"; };
+		C5C43E9D26269532006AF402 /* TextLayerLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextLayerLabel.h; sourceTree = "<group>"; };
+		C5C43E9E26269532006AF402 /* TextLayerLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextLayerLabel.m; sourceTree = "<group>"; };
+		C5C43EA22626E1EE006AF402 /* TransformLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformLayerViewController.h; sourceTree = "<group>"; };
+		C5C43EA32626E1EE006AF402 /* TransformLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformLayerViewController.m; sourceTree = "<group>"; };
+		C5C43EA82626E225006AF402 /* GradientLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientLayerViewController.h; sourceTree = "<group>"; };
+		C5C43EA92626E225006AF402 /* GradientLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientLayerViewController.m; sourceTree = "<group>"; };
+		C5C43EAE2626E24F006AF402 /* ReplicatorLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplicatorLayerViewController.h; sourceTree = "<group>"; };
+		C5C43EAF2626E24F006AF402 /* ReplicatorLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplicatorLayerViewController.m; sourceTree = "<group>"; };
+		C5C43EBE2627D29E006AF402 /* ReplicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplicatorView.h; sourceTree = "<group>"; };
+		C5C43EBF2627D29E006AF402 /* ReplicatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplicatorView.m; sourceTree = "<group>"; };
+		C5C43ECC2627E7AB006AF402 /* ThreeLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeLayerViewController.h; sourceTree = "<group>"; };
+		C5C43ECD2627E7AB006AF402 /* ThreeLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeLayerViewController.m; sourceTree = "<group>"; };
+		C5C43ED82627F5B6006AF402 /* AVPlayerLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerLayerViewController.h; sourceTree = "<group>"; };
+		C5C43ED92627F5B6006AF402 /* AVPlayerLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerLayerViewController.m; sourceTree = "<group>"; };
+		C5C43EE426280CAB006AF402 /* cyborg.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = cyborg.m4v; sourceTree = "<group>"; };
+		C5C43EE826282677006AF402 /* EmitterLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmitterLayerViewController.h; sourceTree = "<group>"; };
+		C5C43EE926282677006AF402 /* EmitterLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmitterLayerViewController.m; sourceTree = "<group>"; };
+		C5C43EF026283A4F006AF402 /* RainLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainLayerViewController.h; sourceTree = "<group>"; };
+		C5C43EF126283A4F006AF402 /* RainLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainLayerViewController.m; sourceTree = "<group>"; };
+		C5C43EF726284090006AF402 /* ClickLikeLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClickLikeLayerViewController.h; sourceTree = "<group>"; };
+		C5C43EF826284090006AF402 /* ClickLikeLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickLikeLayerViewController.m; sourceTree = "<group>"; };
+		C5C43EFB262840AC006AF402 /* CustomLikeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomLikeButton.h; sourceTree = "<group>"; };
+		C5C43EFC262840AC006AF402 /* CustomLikeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLikeButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5C43E2E26241922006AF402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5C43E2826241922006AF402 = {
+			isa = PBXGroup;
+			children = (
+				C5C43E3326241922006AF402 /* CoreAnimationTest */,
+				C5C43E3226241922006AF402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5C43E3226241922006AF402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5C43E3126241922006AF402 /* CoreAnimationTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5C43E3326241922006AF402 /* CoreAnimationTest */ = {
+			isa = PBXGroup;
+			children = (
+				C5C43EE726282669006AF402 /* EmitterLayer */,
+				C5C43EE426280CAB006AF402 /* cyborg.m4v */,
+				C5C43ED72627F59D006AF402 /* AVPlayerLayer */,
+				C5C43ECB2627E791006AF402 /* ThreeLayer */,
+				C5C43EAD2626E233006AF402 /* ReplicatorLayer */,
+				C5C43EA72626E206006AF402 /* GradientLayer */,
+				C5C43EA12626E1CF006AF402 /* TransformLayer */,
+				C5C43E9426269126006AF402 /* TextLayer */,
+				C5C43E8B26267DC1006AF402 /* ShapeLayer */,
+				C5C43E6E26253DA0006AF402 /* 立体盒子效果 */,
+				C5C43E6D26253BC3006AF402 /* 基础动画 */,
+				C5C43E6C26253BB0006AF402 /* 仿射变换 */,
+				C5C43E3426241922006AF402 /* AppDelegate.h */,
+				C5C43E3526241922006AF402 /* AppDelegate.m */,
+				C5C43E3726241922006AF402 /* SceneDelegate.h */,
+				C5C43E3826241922006AF402 /* SceneDelegate.m */,
+				C5C43E8726259689006AF402 /* TestViewController.h */,
+				C5C43E8826259689006AF402 /* TestViewController.m */,
+				C5C43E57262430C8006AF402 /* RedView.h */,
+				C5C43E58262430C8006AF402 /* RedView.m */,
+				C5C43E3D26241922006AF402 /* Main.storyboard */,
+				C5C43E4026241923006AF402 /* Assets.xcassets */,
+				C5C43E4226241923006AF402 /* LaunchScreen.storyboard */,
+				C5C43E4526241923006AF402 /* Info.plist */,
+				C5C43E4626241923006AF402 /* main.m */,
+			);
+			path = CoreAnimationTest;
+			sourceTree = "<group>";
+		};
+		C5C43E6C26253BB0006AF402 /* 仿射变换 */ = {
+			isa = PBXGroup;
+			children = (
+				C5C43E61262438C1006AF402 /* TransformViewController.h */,
+				C5C43E62262438C1006AF402 /* TransformViewController.m */,
+			);
+			path = "仿射变换";
+			sourceTree = "<group>";
+		};
+		C5C43E6D26253BC3006AF402 /* 基础动画 */ = {
+			isa = PBXGroup;
+			children = (
+				C5C43E3A26241922006AF402 /* ViewController.h */,
+				C5C43E3B26241922006AF402 /* ViewController.m */,
+			);
+			path = "基础动画";
+			sourceTree = "<group>";
+		};
+		C5C43E6E26253DA0006AF402 /* 立体盒子效果 */ = {
+			isa = PBXGroup;
+			children = (
+				C5C43E7526253DDA006AF402 /* Box3DViewController.h */,
+				C5C43E7626253DDA006AF402 /* Box3DViewController.m */,
+				C5C43E7726253DDA006AF402 /* Box3DViewController.xib */,
+				C5C43E7B26253F06006AF402 /* CubeViewController.h */,
+				C5C43E7C26253F06006AF402 /* CubeViewController.m */,
+				C5C43E7D26253F06006AF402 /* CubeViewController.xib */,
+			);
+			path = "立体盒子效果";
+			sourceTree = "<group>";
+		};
+		C5C43E8B26267DC1006AF402 /* ShapeLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C5C43E8C26267DF3006AF402 /* ShapeLayerViewController.h */,
+				C5C43E8D26267DF3006AF402 /* ShapeLayerViewController.m */,
+			);
+			path = ShapeLayer;
+			sourceTree = "<group>";
+		};
+		C5C43E9426269126006AF402 /* TextLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C5C43E982626914D006AF402 /* TextLayerViewController.h */,
+				C5C43E992626914E006AF402 /* TextLayerViewController.m */,
+				C5C43E9D26269532006AF402 /* TextLayerLabel.h */,
+				C5C43E9E26269532006AF402 /* TextLayerLabel.m */,
+			);
+			path = TextLayer;
+			sourceTree = "<group>";
+		};
+		C5C43EA12626E1CF006AF402 /* TransformLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C5C43EA22626E1EE006AF402 /* TransformLayerViewController.h */,
+				C5C43EA32626E1EE006AF402 /* TransformLayerViewController.m */,
+			);
+			path = TransformLayer;
+			sourceTree = "<group>";
+		};
+		C5C43EA72626E206006AF402 /* GradientLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C5C43EA82626E225006AF402 /* GradientLayerViewController.h */,
+				C5C43EA92626E225006AF402 /* GradientLayerViewController.m */,
+			);
+			path = GradientLayer;
+			sourceTree = "<group>";
+		};
+		C5C43EAD2626E233006AF402 /* ReplicatorLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C5C43EAE2626E24F006AF402 /* ReplicatorLayerViewController.h */,
+				C5C43EAF2626E24F006AF402 /* ReplicatorLayerViewController.m */,
+				C5C43EBE2627D29E006AF402 /* ReplicatorView.h */,
+				C5C43EBF2627D29E006AF402 /* ReplicatorView.m */,
+			);
+			path = ReplicatorLayer;
+			sourceTree = "<group>";
+		};
+		C5C43ECB2627E791006AF402 /* ThreeLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C5C43ECC2627E7AB006AF402 /* ThreeLayerViewController.h */,
+				C5C43ECD2627E7AB006AF402 /* ThreeLayerViewController.m */,
+			);
+			path = ThreeLayer;
+			sourceTree = "<group>";
+		};
+		C5C43ED72627F59D006AF402 /* AVPlayerLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C5C43ED82627F5B6006AF402 /* AVPlayerLayerViewController.h */,
+				C5C43ED92627F5B6006AF402 /* AVPlayerLayerViewController.m */,
+			);
+			path = AVPlayerLayer;
+			sourceTree = "<group>";
+		};
+		C5C43EE726282669006AF402 /* EmitterLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C5C43EE826282677006AF402 /* EmitterLayerViewController.h */,
+				C5C43EE926282677006AF402 /* EmitterLayerViewController.m */,
+				C5C43EF026283A4F006AF402 /* RainLayerViewController.h */,
+				C5C43EF126283A4F006AF402 /* RainLayerViewController.m */,
+				C5C43EF726284090006AF402 /* ClickLikeLayerViewController.h */,
+				C5C43EF826284090006AF402 /* ClickLikeLayerViewController.m */,
+				C5C43EFB262840AC006AF402 /* CustomLikeButton.h */,
+				C5C43EFC262840AC006AF402 /* CustomLikeButton.m */,
+			);
+			path = EmitterLayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5C43E3026241922006AF402 /* CoreAnimationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5C43E4A26241923006AF402 /* Build configuration list for PBXNativeTarget "CoreAnimationTest" */;
+			buildPhases = (
+				C5C43E2D26241922006AF402 /* Sources */,
+				C5C43E2E26241922006AF402 /* Frameworks */,
+				C5C43E2F26241922006AF402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreAnimationTest;
+			productName = CoreAnimationTest;
+			productReference = C5C43E3126241922006AF402 /* CoreAnimationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5C43E2926241922006AF402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C5C43E3026241922006AF402 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = C5C43E2C26241922006AF402 /* Build configuration list for PBXProject "CoreAnimationTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5C43E2826241922006AF402;
+			productRefGroup = C5C43E3226241922006AF402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5C43E3026241922006AF402 /* CoreAnimationTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5C43E2F26241922006AF402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C43E4426241923006AF402 /* LaunchScreen.storyboard in Resources */,
+				C5C43EE526280CAB006AF402 /* cyborg.m4v in Resources */,
+				C5C43E4126241923006AF402 /* Assets.xcassets in Resources */,
+				C5C43E3F26241922006AF402 /* Main.storyboard in Resources */,
+				C5C43E7F26253F06006AF402 /* CubeViewController.xib in Resources */,
+				C5C43E7926253DDA006AF402 /* Box3DViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5C43E2D26241922006AF402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C43E3C26241922006AF402 /* ViewController.m in Sources */,
+				C5C43E3626241922006AF402 /* AppDelegate.m in Sources */,
+				C5C43EDA2627F5B6006AF402 /* AVPlayerLayerViewController.m in Sources */,
+				C5C43E4726241923006AF402 /* main.m in Sources */,
+				C5C43E63262438C1006AF402 /* TransformViewController.m in Sources */,
+				C5C43E59262430C8006AF402 /* RedView.m in Sources */,
+				C5C43EB02626E24F006AF402 /* ReplicatorLayerViewController.m in Sources */,
+				C5C43E7E26253F06006AF402 /* CubeViewController.m in Sources */,
+				C5C43E9A2626914E006AF402 /* TextLayerViewController.m in Sources */,
+				C5C43EA42626E1EE006AF402 /* TransformLayerViewController.m in Sources */,
+				C5C43EF226283A4F006AF402 /* RainLayerViewController.m in Sources */,
+				C5C43E8E26267DF3006AF402 /* ShapeLayerViewController.m in Sources */,
+				C5C43ECE2627E7AB006AF402 /* ThreeLayerViewController.m in Sources */,
+				C5C43E8926259689006AF402 /* TestViewController.m in Sources */,
+				C5C43EEA26282677006AF402 /* EmitterLayerViewController.m in Sources */,
+				C5C43EFD262840AC006AF402 /* CustomLikeButton.m in Sources */,
+				C5C43EC02627D29E006AF402 /* ReplicatorView.m in Sources */,
+				C5C43EAA2626E225006AF402 /* GradientLayerViewController.m in Sources */,
+				C5C43E9F26269532006AF402 /* TextLayerLabel.m in Sources */,
+				C5C43EF926284090006AF402 /* ClickLikeLayerViewController.m in Sources */,
+				C5C43E7826253DDA006AF402 /* Box3DViewController.m in Sources */,
+				C5C43E3926241922006AF402 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5C43E3D26241922006AF402 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5C43E3E26241922006AF402 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5C43E4226241923006AF402 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5C43E4326241923006AF402 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5C43E4826241923006AF402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5C43E4926241923006AF402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5C43E4B26241923006AF402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DB3H2942PY;
+				INFOPLIST_FILE = CoreAnimationTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "team-lab.CoreAnimationTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5C43E4C26241923006AF402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DB3H2942PY;
+				INFOPLIST_FILE = CoreAnimationTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "team-lab.CoreAnimationTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5C43E2C26241922006AF402 /* Build configuration list for PBXProject "CoreAnimationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C43E4826241923006AF402 /* Debug */,
+				C5C43E4926241923006AF402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5C43E4A26241923006AF402 /* Build configuration list for PBXNativeTarget "CoreAnimationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C43E4B26241923006AF402 /* Debug */,
+				C5C43E4C26241923006AF402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5C43E2926241922006AF402 /* Project object */;
+}
