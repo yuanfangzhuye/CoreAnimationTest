@@ -22,6 +22,7 @@
 #import "EmitterLayerViewController.h"
 #import "RainLayerViewController.h"
 #import "ClickLikeLayerViewController.h"
+#import "BezierCarViewController.h"
 
 /*
  动画添加步骤:
@@ -40,9 +41,10 @@
 @implementation ViewController
 
 - (void)btnClick {
-    ClickLikeLayerViewController *vc = [[ClickLikeLayerViewController alloc] init];
+    BezierCarViewController *vc = [[BezierCarViewController alloc] init];
     vc.modalPresentationStyle = UIModalPresentationFullScreen;
-    [self presentViewController:vc animated:YES completion:nil];
+    [self.navigationController pushViewController:vc animated:YES];
+//    [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (void)viewDidLoad {

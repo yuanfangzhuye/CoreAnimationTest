@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C508549A262963160039151A /* BezierCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5085499262963160039151A /* BezierCarViewController.m */; };
 		C5C43E3626241922006AF402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E3526241922006AF402 /* AppDelegate.m */; };
 		C5C43E3926241922006AF402 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E3826241922006AF402 /* SceneDelegate.m */; };
 		C5C43E3C26241922006AF402 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E3B26241922006AF402 /* ViewController.m */; };
@@ -38,6 +39,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5085498262963160039151A /* BezierCarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierCarViewController.h; sourceTree = "<group>"; };
+		C5085499262963160039151A /* BezierCarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierCarViewController.m; sourceTree = "<group>"; };
 		C5C43E3126241922006AF402 /* CoreAnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C43E3426241922006AF402 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5C43E3526241922006AF402 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,6 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5085497262962DC0039151A /* BezierCarPath */ = {
+			isa = PBXGroup;
+			children = (
+				C5085498262963160039151A /* BezierCarViewController.h */,
+				C5085499262963160039151A /* BezierCarViewController.m */,
+			);
+			path = BezierCarPath;
+			sourceTree = "<group>";
+		};
 		C5C43E2826241922006AF402 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +133,7 @@
 		C5C43E3326241922006AF402 /* CoreAnimationTest */ = {
 			isa = PBXGroup;
 			children = (
+				C5085497262962DC0039151A /* BezierCarPath */,
 				C5C43EE726282669006AF402 /* EmitterLayer */,
 				C5C43EE426280CAB006AF402 /* cyborg.m4v */,
 				C5C43ED72627F59D006AF402 /* AVPlayerLayer */,
@@ -340,6 +353,7 @@
 				C5C43EDA2627F5B6006AF402 /* AVPlayerLayerViewController.m in Sources */,
 				C5C43E4726241923006AF402 /* main.m in Sources */,
 				C5C43E63262438C1006AF402 /* TransformViewController.m in Sources */,
+				C508549A262963160039151A /* BezierCarViewController.m in Sources */,
 				C5C43E59262430C8006AF402 /* RedView.m in Sources */,
 				C5C43EB02626E24F006AF402 /* ReplicatorLayerViewController.m in Sources */,
 				C5C43E7E26253F06006AF402 /* CubeViewController.m in Sources */,
