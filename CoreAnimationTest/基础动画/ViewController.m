@@ -23,6 +23,9 @@
 #import "RainLayerViewController.h"
 #import "ClickLikeLayerViewController.h"
 #import "BezierCarViewController.h"
+#import "PigViewController.h"
+#import "QQRefreshViewController.h"
+#import "BallCollisionViewController.h"
 
 /*
  动画添加步骤:
@@ -41,10 +44,10 @@
 @implementation ViewController
 
 - (void)btnClick {
-    BezierCarViewController *vc = [[BezierCarViewController alloc] init];
-    vc.modalPresentationStyle = UIModalPresentationFullScreen;
-    [self.navigationController pushViewController:vc animated:YES];
+    QQRefreshViewController *vc = [[QQRefreshViewController alloc] init];
+//    vc.modalPresentationStyle = UIModalPresentationFullScreen;
 //    [self presentViewController:vc animated:YES completion:nil];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)viewDidLoad {

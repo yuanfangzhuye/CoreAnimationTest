@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C508549A262963160039151A /* BezierCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5085499262963160039151A /* BezierCarViewController.m */; };
+		C50854A026297D6E0039151A /* QQRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C508549F26297D6E0039151A /* QQRefreshViewController.m */; };
+		C50854A9262980780039151A /* PigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C50854A8262980780039151A /* PigViewController.m */; };
+		C50854B0262982FD0039151A /* BallCollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C50854AF262982FD0039151A /* BallCollisionViewController.m */; };
 		C5C43E3626241922006AF402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E3526241922006AF402 /* AppDelegate.m */; };
 		C5C43E3926241922006AF402 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E3826241922006AF402 /* SceneDelegate.m */; };
 		C5C43E3C26241922006AF402 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E3B26241922006AF402 /* ViewController.m */; };
@@ -41,6 +44,12 @@
 /* Begin PBXFileReference section */
 		C5085498262963160039151A /* BezierCarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierCarViewController.h; sourceTree = "<group>"; };
 		C5085499262963160039151A /* BezierCarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierCarViewController.m; sourceTree = "<group>"; };
+		C508549E26297D6E0039151A /* QQRefreshViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQRefreshViewController.h; sourceTree = "<group>"; };
+		C508549F26297D6E0039151A /* QQRefreshViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQRefreshViewController.m; sourceTree = "<group>"; };
+		C50854A7262980780039151A /* PigViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PigViewController.h; sourceTree = "<group>"; };
+		C50854A8262980780039151A /* PigViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PigViewController.m; sourceTree = "<group>"; };
+		C50854AE262982FD0039151A /* BallCollisionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BallCollisionViewController.h; sourceTree = "<group>"; };
+		C50854AF262982FD0039151A /* BallCollisionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallCollisionViewController.m; sourceTree = "<group>"; };
 		C5C43E3126241922006AF402 /* CoreAnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C43E3426241922006AF402 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5C43E3526241922006AF402 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -114,6 +123,33 @@
 			path = BezierCarPath;
 			sourceTree = "<group>";
 		};
+		C508549D26297D520039151A /* QQRefreshAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C508549E26297D6E0039151A /* QQRefreshViewController.h */,
+				C508549F26297D6E0039151A /* QQRefreshViewController.m */,
+			);
+			path = QQRefreshAnimation;
+			sourceTree = "<group>";
+		};
+		C50854A6262980500039151A /* Pig */ = {
+			isa = PBXGroup;
+			children = (
+				C50854A7262980780039151A /* PigViewController.h */,
+				C50854A8262980780039151A /* PigViewController.m */,
+			);
+			path = Pig;
+			sourceTree = "<group>";
+		};
+		C50854AD262982E90039151A /* BallCollision */ = {
+			isa = PBXGroup;
+			children = (
+				C50854AE262982FD0039151A /* BallCollisionViewController.h */,
+				C50854AF262982FD0039151A /* BallCollisionViewController.m */,
+			);
+			path = BallCollision;
+			sourceTree = "<group>";
+		};
 		C5C43E2826241922006AF402 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +169,9 @@
 		C5C43E3326241922006AF402 /* CoreAnimationTest */ = {
 			isa = PBXGroup;
 			children = (
+				C50854AD262982E90039151A /* BallCollision */,
+				C508549D26297D520039151A /* QQRefreshAnimation */,
+				C50854A6262980500039151A /* Pig */,
 				C5085497262962DC0039151A /* BezierCarPath */,
 				C5C43EE726282669006AF402 /* EmitterLayer */,
 				C5C43EE426280CAB006AF402 /* cyborg.m4v */,
@@ -348,10 +387,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50854B0262982FD0039151A /* BallCollisionViewController.m in Sources */,
 				C5C43E3C26241922006AF402 /* ViewController.m in Sources */,
 				C5C43E3626241922006AF402 /* AppDelegate.m in Sources */,
 				C5C43EDA2627F5B6006AF402 /* AVPlayerLayerViewController.m in Sources */,
 				C5C43E4726241923006AF402 /* main.m in Sources */,
+				C50854A026297D6E0039151A /* QQRefreshViewController.m in Sources */,
 				C5C43E63262438C1006AF402 /* TransformViewController.m in Sources */,
 				C508549A262963160039151A /* BezierCarViewController.m in Sources */,
 				C5C43E59262430C8006AF402 /* RedView.m in Sources */,
@@ -367,6 +408,7 @@
 				C5C43EFD262840AC006AF402 /* CustomLikeButton.m in Sources */,
 				C5C43EC02627D29E006AF402 /* ReplicatorView.m in Sources */,
 				C5C43EAA2626E225006AF402 /* GradientLayerViewController.m in Sources */,
+				C50854A9262980780039151A /* PigViewController.m in Sources */,
 				C5C43E9F26269532006AF402 /* TextLayerLabel.m in Sources */,
 				C5C43EF926284090006AF402 /* ClickLikeLayerViewController.m in Sources */,
 				C5C43E7826253DDA006AF402 /* Box3DViewController.m in Sources */,
