@@ -11,6 +11,7 @@
 		C50854A026297D6E0039151A /* QQRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C508549F26297D6E0039151A /* QQRefreshViewController.m */; };
 		C50854A9262980780039151A /* PigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C50854A8262980780039151A /* PigViewController.m */; };
 		C50854B0262982FD0039151A /* BallCollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C50854AF262982FD0039151A /* BallCollisionViewController.m */; };
+		C5BD537D262D68D60053D7E9 /* TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BD537C262D68D60053D7E9 /* TransitionViewController.m */; };
 		C5C43E3626241922006AF402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E3526241922006AF402 /* AppDelegate.m */; };
 		C5C43E3926241922006AF402 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E3826241922006AF402 /* SceneDelegate.m */; };
 		C5C43E3C26241922006AF402 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E3B26241922006AF402 /* ViewController.m */; };
@@ -50,6 +51,8 @@
 		C50854A8262980780039151A /* PigViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PigViewController.m; sourceTree = "<group>"; };
 		C50854AE262982FD0039151A /* BallCollisionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BallCollisionViewController.h; sourceTree = "<group>"; };
 		C50854AF262982FD0039151A /* BallCollisionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallCollisionViewController.m; sourceTree = "<group>"; };
+		C5BD537B262D68D60053D7E9 /* TransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionViewController.h; sourceTree = "<group>"; };
+		C5BD537C262D68D60053D7E9 /* TransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionViewController.m; sourceTree = "<group>"; };
 		C5C43E3126241922006AF402 /* CoreAnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C43E3426241922006AF402 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5C43E3526241922006AF402 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -150,6 +153,15 @@
 			path = BallCollision;
 			sourceTree = "<group>";
 		};
+		C5BD537A262D68730053D7E9 /* CATransition */ = {
+			isa = PBXGroup;
+			children = (
+				C5BD537B262D68D60053D7E9 /* TransitionViewController.h */,
+				C5BD537C262D68D60053D7E9 /* TransitionViewController.m */,
+			);
+			path = CATransition;
+			sourceTree = "<group>";
+		};
 		C5C43E2826241922006AF402 = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +181,7 @@
 		C5C43E3326241922006AF402 /* CoreAnimationTest */ = {
 			isa = PBXGroup;
 			children = (
+				C5BD537A262D68730053D7E9 /* CATransition */,
 				C50854AD262982E90039151A /* BallCollision */,
 				C508549D26297D520039151A /* QQRefreshAnimation */,
 				C50854A6262980500039151A /* Pig */,
@@ -391,6 +404,7 @@
 				C5C43E3C26241922006AF402 /* ViewController.m in Sources */,
 				C5C43E3626241922006AF402 /* AppDelegate.m in Sources */,
 				C5C43EDA2627F5B6006AF402 /* AVPlayerLayerViewController.m in Sources */,
+				C5BD537D262D68D60053D7E9 /* TransitionViewController.m in Sources */,
 				C5C43E4726241923006AF402 /* main.m in Sources */,
 				C50854A026297D6E0039151A /* QQRefreshViewController.m in Sources */,
 				C5C43E63262438C1006AF402 /* TransformViewController.m in Sources */,

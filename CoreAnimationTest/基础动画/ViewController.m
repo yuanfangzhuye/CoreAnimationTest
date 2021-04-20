@@ -26,6 +26,7 @@
 #import "PigViewController.h"
 #import "QQRefreshViewController.h"
 #import "BallCollisionViewController.h"
+#import "TransitionViewController.h"
 
 /*
  动画添加步骤:
@@ -47,7 +48,7 @@
 @implementation ViewController
 
 - (void)btnClick {
-    QQRefreshViewController *vc = [[QQRefreshViewController alloc] init];
+    TransitionViewController *vc = [[TransitionViewController alloc] init];
 //    vc.modalPresentationStyle = UIModalPresentationFullScreen;
 //    [self presentViewController:vc animated:YES completion:nil];
     [self.navigationController pushViewController:vc animated:YES];
@@ -56,43 +57,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    // 添加固定圆
-//    self.fixedCircleView = [[UIView alloc] initWithFrame:CGRectMake((CGRectGetWidth(self.view.bounds) - 50) / 2, CGRectGetHeight(self.view.bounds) - 300, 50, 50)];
-//    self.fixedCircleView.layer.cornerRadius = 25.0;
-//    [self.view addSubview:self.fixedCircleView];
-//    
-//    
-//    // 添加拖拽圆
-//    self.dragCircleView = [[UIView alloc] initWithFrame:CGRectMake((CGRectGetWidth(self.view.bounds) - 30) / 2, CGRectGetHeight(self.view.bounds) - 100, 30, 30)];
-//    self.dragCircleView.layer.cornerRadius = 15.0;
-//    [self.view addSubview:self.dragCircleView];
-//    
-//    CGPoint fixCenter = self.fixedCircleView.center;
-//    CGPoint dragCenter = self.dragCircleView.center;
-//    
-//    CGPoint pointA = CGPointMake(fixCenter.x - 25, fixCenter.y);
-//    CGPoint pointB = CGPointMake(fixCenter.x + 25, fixCenter.y);
-//    CGPoint pointC = CGPointMake(dragCenter.x + 15, dragCenter.y);
-//    CGPoint pointD = CGPointMake(dragCenter.x - 15, dragCenter.y);
-//    
-//    CGPoint pointO = CGPointMake((pointA.x + pointD.x) / 2 + 5, (pointA.y + pointD.y) / 2);
-//    CGPoint pointP = CGPointMake((pointB.x + pointC.x) / 2 - 5, (pointB.y + pointC.y) / 2);
-//    
-//    
-//    UIBezierPath *path = [UIBezierPath bezierPath];
-//    [path moveToPoint:pointA];
-//    [path addArcWithCenter:fixCenter radius:25 startAngle:0 endAngle:M_PI clockwise:YES];
-//    [path moveToPoint:pointB];
-//    [path addQuadCurveToPoint:pointC controlPoint:pointP];
-//    [path addArcWithCenter:dragCenter radius:15 startAngle:0 endAngle:M_PI clockwise:YES];
-//    [path addLineToPoint:pointD];
-//    [path addQuadCurveToPoint:pointA controlPoint:pointO];
-//    
-//    CAShapeLayer *shapeLayer = [CAShapeLayer layer];
-//    shapeLayer.fillColor = [UIColor redColor].CGColor;
-//    shapeLayer.path = path.CGPath;
-//    [self.view.layer addSublayer:shapeLayer];
     
     
     [self setupUI];
