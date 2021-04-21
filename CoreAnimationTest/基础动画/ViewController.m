@@ -27,6 +27,7 @@
 #import "QQRefreshViewController.h"
 #import "BallCollisionViewController.h"
 #import "TransitionViewController.h"
+#import "CustomTransitionViewController.h"
 
 /*
  动画添加步骤:
@@ -48,7 +49,7 @@
 @implementation ViewController
 
 - (void)btnClick {
-    TransitionViewController *vc = [[TransitionViewController alloc] init];
+    CustomTransitionViewController *vc = [[CustomTransitionViewController alloc] init];
 //    vc.modalPresentationStyle = UIModalPresentationFullScreen;
 //    [self presentViewController:vc animated:YES completion:nil];
     [self.navigationController pushViewController:vc animated:YES];
