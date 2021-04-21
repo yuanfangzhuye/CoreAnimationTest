@@ -31,7 +31,7 @@
 #import "DouyinLikeViewController.h"
 #import "AddDigitalViewController.h"
 #import "MusicAnimationViewController.h"
-
+#import "HeaderImageBreatheViewController.h"
 
 /*
  动画添加步骤:
@@ -53,7 +53,7 @@
 @implementation ViewController
 
 - (void)btnClick {
-    MusicAnimationViewController *vc = [[MusicAnimationViewController alloc] init];
+    HeaderImageBreatheViewController *vc = [[HeaderImageBreatheViewController alloc] init];
 //    vc.modalPresentationStyle = UIModalPresentationFullScreen;
 //    [self presentViewController:vc animated:YES completion:nil];
     [self.navigationController pushViewController:vc animated:YES];

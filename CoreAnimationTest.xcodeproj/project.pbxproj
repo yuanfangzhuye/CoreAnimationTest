@@ -21,6 +21,7 @@
 		C5BD53DA262FD8ED0053D7E9 /* AddDigitalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BD53D9262FD8ED0053D7E9 /* AddDigitalViewController.m */; };
 		C5BD53E6262FDF090053D7E9 /* MusicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BD53E5262FDF090053D7E9 /* MusicAnimationViewController.m */; };
 		C5BD53EB262FDF260053D7E9 /* MusicAlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BD53EA262FDF260053D7E9 /* MusicAlbumView.m */; };
+		C5BD53F0263003C90053D7E9 /* HeaderImageBreatheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BD53EF263003C90053D7E9 /* HeaderImageBreatheViewController.m */; };
 		C5C43E3626241922006AF402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E3526241922006AF402 /* AppDelegate.m */; };
 		C5C43E3926241922006AF402 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E3826241922006AF402 /* SceneDelegate.m */; };
 		C5C43E3C26241922006AF402 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E3B26241922006AF402 /* ViewController.m */; };
@@ -80,6 +81,8 @@
 		C5BD53E5262FDF090053D7E9 /* MusicAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicAnimationViewController.m; sourceTree = "<group>"; };
 		C5BD53E9262FDF260053D7E9 /* MusicAlbumView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicAlbumView.h; sourceTree = "<group>"; };
 		C5BD53EA262FDF260053D7E9 /* MusicAlbumView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicAlbumView.m; sourceTree = "<group>"; };
+		C5BD53EE263003C90053D7E9 /* HeaderImageBreatheViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderImageBreatheViewController.h; sourceTree = "<group>"; };
+		C5BD53EF263003C90053D7E9 /* HeaderImageBreatheViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderImageBreatheViewController.m; sourceTree = "<group>"; };
 		C5C43E3126241922006AF402 /* CoreAnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C43E3426241922006AF402 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5C43E3526241922006AF402 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -235,6 +238,15 @@
 			path = MusicAnimation;
 			sourceTree = "<group>";
 		};
+		C5BD53ED263003A80053D7E9 /* HeaderBreathe */ = {
+			isa = PBXGroup;
+			children = (
+				C5BD53EE263003C90053D7E9 /* HeaderImageBreatheViewController.h */,
+				C5BD53EF263003C90053D7E9 /* HeaderImageBreatheViewController.m */,
+			);
+			path = HeaderBreathe;
+			sourceTree = "<group>";
+		};
 		C5C43E2826241922006AF402 = {
 			isa = PBXGroup;
 			children = (
@@ -254,6 +266,7 @@
 		C5C43E3326241922006AF402 /* CoreAnimationTest */ = {
 			isa = PBXGroup;
 			children = (
+				C5BD53ED263003A80053D7E9 /* HeaderBreathe */,
 				C5BD53E3262FDECF0053D7E9 /* MusicAnimation */,
 				C5BD53D7262FD8C00053D7E9 /* AddDigtial */,
 				C5BD53CA262FC4B10053D7E9 /* LikeAnimation */,
@@ -478,6 +491,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C50854B0262982FD0039151A /* BallCollisionViewController.m in Sources */,
+				C5BD53F0263003C90053D7E9 /* HeaderImageBreatheViewController.m in Sources */,
 				C5C43E3C26241922006AF402 /* ViewController.m in Sources */,
 				C5C43E3626241922006AF402 /* AppDelegate.m in Sources */,
 				C5C43EDA2627F5B6006AF402 /* AVPlayerLayerViewController.m in Sources */,
