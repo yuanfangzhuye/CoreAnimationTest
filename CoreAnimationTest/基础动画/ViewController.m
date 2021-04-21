@@ -28,6 +28,7 @@
 #import "BallCollisionViewController.h"
 #import "TransitionViewController.h"
 #import "CustomTransitionViewController.h"
+#import "DouyinLikeViewController.h"
 
 /*
  动画添加步骤:
@@ -49,7 +50,7 @@
 @implementation ViewController
 
 - (void)btnClick {
-    CustomTransitionViewController *vc = [[CustomTransitionViewController alloc] init];
+    DouyinLikeViewController *vc = [[DouyinLikeViewController alloc] init];
 //    vc.modalPresentationStyle = UIModalPresentationFullScreen;
 //    [self presentViewController:vc animated:YES completion:nil];
     [self.navigationController pushViewController:vc animated:YES];
