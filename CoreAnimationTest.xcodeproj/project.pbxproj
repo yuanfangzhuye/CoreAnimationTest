@@ -18,6 +18,7 @@
 		C5BD5397262EB1950053D7E9 /* LCPresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BD5396262EB1950053D7E9 /* LCPresentTransition.m */; };
 		C5BD53CD262FC4E90053D7E9 /* DouyinLikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BD53CC262FC4E90053D7E9 /* DouyinLikeViewController.m */; };
 		C5BD53D2262FC5290053D7E9 /* DouyinLikeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BD53D1262FC5290053D7E9 /* DouyinLikeView.m */; };
+		C5BD53DA262FD8ED0053D7E9 /* AddDigitalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BD53D9262FD8ED0053D7E9 /* AddDigitalViewController.m */; };
 		C5C43E3626241922006AF402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E3526241922006AF402 /* AppDelegate.m */; };
 		C5C43E3926241922006AF402 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E3826241922006AF402 /* SceneDelegate.m */; };
 		C5C43E3C26241922006AF402 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E3B26241922006AF402 /* ViewController.m */; };
@@ -71,6 +72,8 @@
 		C5BD53CC262FC4E90053D7E9 /* DouyinLikeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DouyinLikeViewController.m; sourceTree = "<group>"; };
 		C5BD53D0262FC5290053D7E9 /* DouyinLikeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DouyinLikeView.h; sourceTree = "<group>"; };
 		C5BD53D1262FC5290053D7E9 /* DouyinLikeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DouyinLikeView.m; sourceTree = "<group>"; };
+		C5BD53D8262FD8ED0053D7E9 /* AddDigitalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddDigitalViewController.h; sourceTree = "<group>"; };
+		C5BD53D9262FD8ED0053D7E9 /* AddDigitalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddDigitalViewController.m; sourceTree = "<group>"; };
 		C5C43E3126241922006AF402 /* CoreAnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C43E3426241922006AF402 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5C43E3526241922006AF402 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -206,6 +209,15 @@
 			path = LikeAnimation;
 			sourceTree = "<group>";
 		};
+		C5BD53D7262FD8C00053D7E9 /* AddDigtial */ = {
+			isa = PBXGroup;
+			children = (
+				C5BD53D8262FD8ED0053D7E9 /* AddDigitalViewController.h */,
+				C5BD53D9262FD8ED0053D7E9 /* AddDigitalViewController.m */,
+			);
+			path = AddDigtial;
+			sourceTree = "<group>";
+		};
 		C5C43E2826241922006AF402 = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +237,7 @@
 		C5C43E3326241922006AF402 /* CoreAnimationTest */ = {
 			isa = PBXGroup;
 			children = (
+				C5BD53D7262FD8C00053D7E9 /* AddDigtial */,
 				C5BD53CA262FC4B10053D7E9 /* LikeAnimation */,
 				C5BD5386262EAE680053D7E9 /* 自定义转场动画 */,
 				C5BD537A262D68730053D7E9 /* CATransition */,
@@ -463,6 +476,7 @@
 				C5BD5393262EB1470053D7E9 /* PushTransitionViewController.m in Sources */,
 				C5BD538A262EAEA30053D7E9 /* CustomTransitionViewController.m in Sources */,
 				C5C43E9A2626914E006AF402 /* TextLayerViewController.m in Sources */,
+				C5BD53DA262FD8ED0053D7E9 /* AddDigitalViewController.m in Sources */,
 				C5BD53CD262FC4E90053D7E9 /* DouyinLikeViewController.m in Sources */,
 				C5C43EA42626E1EE006AF402 /* TransformLayerViewController.m in Sources */,
 				C5C43EF226283A4F006AF402 /* RainLayerViewController.m in Sources */,

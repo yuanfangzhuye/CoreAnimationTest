@@ -29,6 +29,7 @@
 #import "TransitionViewController.h"
 #import "CustomTransitionViewController.h"
 #import "DouyinLikeViewController.h"
+#import "AddDigitalViewController.h"
 
 /*
  动画添加步骤:
@@ -50,7 +51,7 @@
 @implementation ViewController
 
 - (void)btnClick {
-    DouyinLikeViewController *vc = [[DouyinLikeViewController alloc] init];
+    AddDigitalViewController *vc = [[AddDigitalViewController alloc] init];
 //    vc.modalPresentationStyle = UIModalPresentationFullScreen;
 //    [self presentViewController:vc animated:YES completion:nil];
     [self.navigationController pushViewController:vc animated:YES];
