@@ -30,6 +30,8 @@
 #import "CustomTransitionViewController.h"
 #import "DouyinLikeViewController.h"
 #import "AddDigitalViewController.h"
+#import "MusicAnimationViewController.h"
+
 
 /*
  动画添加步骤:
@@ -51,7 +53,7 @@
 @implementation ViewController
 
 - (void)btnClick {
-    AddDigitalViewController *vc = [[AddDigitalViewController alloc] init];
+    MusicAnimationViewController *vc = [[MusicAnimationViewController alloc] init];
 //    vc.modalPresentationStyle = UIModalPresentationFullScreen;
 //    [self presentViewController:vc animated:YES completion:nil];
     [self.navigationController pushViewController:vc animated:YES];
