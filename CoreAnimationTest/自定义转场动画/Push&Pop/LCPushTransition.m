@@ -47,8 +47,8 @@
     UIView *tempView = [fromVC.imageView snapshotViewAfterScreenUpdates:NO];
     tempView.frame = [fromVC.imageView convertRect:fromVC.imageView.bounds toView:containerView];
     
-    toVC.transitionImageView.hidden = YES;
     fromVC.imageView.hidden = YES;
+    toVC.transitionImageView.hidden = YES;
     
     [containerView addSubview:toVC.view];
     [containerView addSubview:tempView];
@@ -58,7 +58,7 @@
                         options:UIViewAnimationOptionTransitionFlipFromRight
                      animations:^{
         
-        tempView.frame = [fromVC.imageView convertRect:fromVC.imageView.bounds toView:containerView];
+        tempView.frame = [toVC.transitionImageView convertRect:toVC.transitionImageView.bounds toView:containerView];
         
     }
                      completion:^(BOOL finished) {
@@ -90,19 +90,26 @@
     tempView.frame = [fromVC.transitionImageView convertRect:fromVC.transitionImageView.bounds toView:containerView];
     
     fromVC.transitionImageView.hidden = YES;
+    
     [containerView addSubview:toVC.view];
+    
+    UIView * bgView = [[UIView alloc] initWithFrame:fromVC.view.bounds];
+    bgView.backgroundColor = [UIColor blackColor];
+    [containerView addSubview:bgView];
+    
     [containerView addSubview:tempView];
     
     [UIView animateWithDuration:[self transitionDuration:transitionContext] delay:0 usingSpringWithDamping:0.55 initialSpringVelocity:1.0 / 0.55 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         
-        tempView.frame = [fromVC.transitionImageView convertRect:fromVC.transitionImageView.bounds toView:containerView];
+        tempView.frame = [toVC.imageView convertRect:toVC.imageView.bounds toView:containerView];
+        bgView.alpha = 0;
         
     } completion:^(BOOL finished) {
         
         [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
         toVC.imageView.hidden = NO;
-        fromVC.transitionImageView.hidden = NO;
         [tempView removeFromSuperview];
+        [bgView removeFromSuperview];
         
     }];
     
