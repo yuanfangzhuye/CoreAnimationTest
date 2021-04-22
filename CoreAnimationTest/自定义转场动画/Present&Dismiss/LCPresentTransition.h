@@ -13,9 +13,8 @@ typedef NS_ENUM(NSUInteger, LCPresentTransitionType) {
     LCPresentTransitionTypeDissmiss
 };
 
-@interface LCPresentTransition : NSObject<UIViewControllerAnimatedTransitioning>
+@interface LCPresentTransition : NSObject <UIViewControllerAnimatedTransitioning>
 
-+ (instancetype)interactiveTransitionWithTransitionType:(LCPresentTransitionType)type;
-- (instancetype)initWithTransitionType:(LCPresentTransitionType)type;
+@property (nonatomic, assign) LCPresentTransitionType transitionType;
 
 @end

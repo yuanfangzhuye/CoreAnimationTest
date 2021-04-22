@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CustomTransitionViewController : UIViewController
 
+@property (nonatomic, strong) UIImageView *imageView;
+
 @end
 
 NS_ASSUME_NONNULL_END

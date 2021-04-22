@@ -32,6 +32,7 @@
 #import "AddDigitalViewController.h"
 #import "MusicAnimationViewController.h"
 #import "HeaderImageBreatheViewController.h"
+#import "PushTransitionViewController.h"
 
 /*
  动画添加步骤:
@@ -53,7 +54,7 @@
 @implementation ViewController
 
 - (void)btnClick {
-    HeaderImageBreatheViewController *vc = [[HeaderImageBreatheViewController alloc] init];
+    PushTransitionViewController *vc = [[PushTransitionViewController alloc] init];
 //    vc.modalPresentationStyle = UIModalPresentationFullScreen;
 //    [self presentViewController:vc animated:YES completion:nil];
     [self.navigationController pushViewController:vc animated:YES];
