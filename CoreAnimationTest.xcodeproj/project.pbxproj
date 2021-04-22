@@ -12,6 +12,10 @@
 		C50854A9262980780039151A /* PigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C50854A8262980780039151A /* PigViewController.m */; };
 		C50854B0262982FD0039151A /* BallCollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C50854AF262982FD0039151A /* BallCollisionViewController.m */; };
 		C5099D9A2630303100ED0BE7 /* PopTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5099D992630303100ED0BE7 /* PopTransitionViewController.m */; };
+		C5099DA3263151A900ED0BE7 /* OpenDoorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5099DA2263151A900ED0BE7 /* OpenDoorViewController.m */; };
+		C5099DA8263151B700ED0BE7 /* CloseDoorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5099DA7263151B700ED0BE7 /* CloseDoorViewController.m */; };
+		C5099DAC263151CF00ED0BE7 /* DoorTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5099DAB263151CF00ED0BE7 /* DoorTransition.m */; };
+		C5099DB126315D8000ED0BE7 /* BasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5099DB026315D8000ED0BE7 /* BasicAnimationViewController.m */; };
 		C5BD537D262D68D60053D7E9 /* TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BD537C262D68D60053D7E9 /* TransitionViewController.m */; };
 		C5BD538A262EAEA30053D7E9 /* CustomTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BD5389262EAEA30053D7E9 /* CustomTransitionViewController.m */; };
 		C5BD538F262EB1370053D7E9 /* PresentTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BD538E262EB1370053D7E9 /* PresentTransitionViewController.m */; };
@@ -37,7 +41,6 @@
 		C5C43E7926253DDA006AF402 /* Box3DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5C43E7726253DDA006AF402 /* Box3DViewController.xib */; };
 		C5C43E7E26253F06006AF402 /* CubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E7C26253F06006AF402 /* CubeViewController.m */; };
 		C5C43E7F26253F06006AF402 /* CubeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5C43E7D26253F06006AF402 /* CubeViewController.xib */; };
-		C5C43E8926259689006AF402 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E8826259689006AF402 /* TestViewController.m */; };
 		C5C43E8E26267DF3006AF402 /* ShapeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E8D26267DF3006AF402 /* ShapeLayerViewController.m */; };
 		C5C43E9A2626914E006AF402 /* TextLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E992626914E006AF402 /* TextLayerViewController.m */; };
 		C5C43E9F26269532006AF402 /* TextLayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C43E9E26269532006AF402 /* TextLayerLabel.m */; };
@@ -65,6 +68,14 @@
 		C50854AF262982FD0039151A /* BallCollisionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallCollisionViewController.m; sourceTree = "<group>"; };
 		C5099D982630303100ED0BE7 /* PopTransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopTransitionViewController.h; sourceTree = "<group>"; };
 		C5099D992630303100ED0BE7 /* PopTransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopTransitionViewController.m; sourceTree = "<group>"; };
+		C5099DA1263151A900ED0BE7 /* OpenDoorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenDoorViewController.h; sourceTree = "<group>"; };
+		C5099DA2263151A900ED0BE7 /* OpenDoorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenDoorViewController.m; sourceTree = "<group>"; };
+		C5099DA6263151B700ED0BE7 /* CloseDoorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloseDoorViewController.h; sourceTree = "<group>"; };
+		C5099DA7263151B700ED0BE7 /* CloseDoorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloseDoorViewController.m; sourceTree = "<group>"; };
+		C5099DAA263151CF00ED0BE7 /* DoorTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoorTransition.h; sourceTree = "<group>"; };
+		C5099DAB263151CF00ED0BE7 /* DoorTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoorTransition.m; sourceTree = "<group>"; };
+		C5099DAF26315D8000ED0BE7 /* BasicAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicAnimationViewController.h; sourceTree = "<group>"; };
+		C5099DB026315D8000ED0BE7 /* BasicAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationViewController.m; sourceTree = "<group>"; };
 		C5BD537B262D68D60053D7E9 /* TransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionViewController.h; sourceTree = "<group>"; };
 		C5BD537C262D68D60053D7E9 /* TransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionViewController.m; sourceTree = "<group>"; };
 		C5BD5388262EAEA30053D7E9 /* CustomTransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTransitionViewController.h; sourceTree = "<group>"; };
@@ -111,8 +122,6 @@
 		C5C43E7B26253F06006AF402 /* CubeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeViewController.h; sourceTree = "<group>"; };
 		C5C43E7C26253F06006AF402 /* CubeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeViewController.m; sourceTree = "<group>"; };
 		C5C43E7D26253F06006AF402 /* CubeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CubeViewController.xib; sourceTree = "<group>"; };
-		C5C43E8726259689006AF402 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		C5C43E8826259689006AF402 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		C5C43E8C26267DF3006AF402 /* ShapeLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeLayerViewController.h; sourceTree = "<group>"; };
 		C5C43E8D26267DF3006AF402 /* ShapeLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeLayerViewController.m; sourceTree = "<group>"; };
 		C5C43E982626914D006AF402 /* TextLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextLayerViewController.h; sourceTree = "<group>"; };
@@ -189,6 +198,19 @@
 			path = BallCollision;
 			sourceTree = "<group>";
 		};
+		C5099DA02631512200ED0BE7 /* OpenDoor */ = {
+			isa = PBXGroup;
+			children = (
+				C5099DA1263151A900ED0BE7 /* OpenDoorViewController.h */,
+				C5099DA2263151A900ED0BE7 /* OpenDoorViewController.m */,
+				C5099DAA263151CF00ED0BE7 /* DoorTransition.h */,
+				C5099DAB263151CF00ED0BE7 /* DoorTransition.m */,
+				C5099DA6263151B700ED0BE7 /* CloseDoorViewController.h */,
+				C5099DA7263151B700ED0BE7 /* CloseDoorViewController.m */,
+			);
+			path = OpenDoor;
+			sourceTree = "<group>";
+		};
 		C5BD537A262D68730053D7E9 /* CATransition */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +223,7 @@
 		C5BD5386262EAE680053D7E9 /* 自定义转场动画 */ = {
 			isa = PBXGroup;
 			children = (
+				C5099DA02631512200ED0BE7 /* OpenDoor */,
 				C5BD53F4263019890053D7E9 /* Push&Pop */,
 				C5BD53F3263019810053D7E9 /* Present&Dismiss */,
 			);
@@ -318,10 +341,8 @@
 				C5C43E3526241922006AF402 /* AppDelegate.m */,
 				C5C43E3726241922006AF402 /* SceneDelegate.h */,
 				C5C43E3826241922006AF402 /* SceneDelegate.m */,
-				C5C43E8726259689006AF402 /* TestViewController.h */,
-				C5C43E8826259689006AF402 /* TestViewController.m */,
-				C5C43E57262430C8006AF402 /* RedView.h */,
-				C5C43E58262430C8006AF402 /* RedView.m */,
+				C5C43E3A26241922006AF402 /* ViewController.h */,
+				C5C43E3B26241922006AF402 /* ViewController.m */,
 				C5C43E3D26241922006AF402 /* Main.storyboard */,
 				C5C43E4026241923006AF402 /* Assets.xcassets */,
 				C5C43E4226241923006AF402 /* LaunchScreen.storyboard */,
@@ -343,8 +364,10 @@
 		C5C43E6D26253BC3006AF402 /* 基础动画 */ = {
 			isa = PBXGroup;
 			children = (
-				C5C43E3A26241922006AF402 /* ViewController.h */,
-				C5C43E3B26241922006AF402 /* ViewController.m */,
+				C5C43E57262430C8006AF402 /* RedView.h */,
+				C5C43E58262430C8006AF402 /* RedView.m */,
+				C5099DAF26315D8000ED0BE7 /* BasicAnimationViewController.h */,
+				C5099DB026315D8000ED0BE7 /* BasicAnimationViewController.m */,
 			);
 			path = "基础动画";
 			sourceTree = "<group>";
@@ -516,16 +539,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5099DA3263151A900ED0BE7 /* OpenDoorViewController.m in Sources */,
 				C50854B0262982FD0039151A /* BallCollisionViewController.m in Sources */,
 				C5BD53F0263003C90053D7E9 /* HeaderImageBreatheViewController.m in Sources */,
 				C5C43E3C26241922006AF402 /* ViewController.m in Sources */,
 				C5C43E3626241922006AF402 /* AppDelegate.m in Sources */,
 				C5C43EDA2627F5B6006AF402 /* AVPlayerLayerViewController.m in Sources */,
+				C5099DA8263151B700ED0BE7 /* CloseDoorViewController.m in Sources */,
 				C5BD537D262D68D60053D7E9 /* TransitionViewController.m in Sources */,
 				C5C43E4726241923006AF402 /* main.m in Sources */,
 				C50854A026297D6E0039151A /* QQRefreshViewController.m in Sources */,
 				C5C43E63262438C1006AF402 /* TransformViewController.m in Sources */,
 				C5BD53F7263019D40053D7E9 /* LCPushTransition.m in Sources */,
+				C5099DB126315D8000ED0BE7 /* BasicAnimationViewController.m in Sources */,
 				C5BD5397262EB1950053D7E9 /* LCPresentTransition.m in Sources */,
 				C5BD538F262EB1370053D7E9 /* PresentTransitionViewController.m in Sources */,
 				C508549A262963160039151A /* BezierCarViewController.m in Sources */,
@@ -544,10 +570,10 @@
 				C5C43E8E26267DF3006AF402 /* ShapeLayerViewController.m in Sources */,
 				C5C43ECE2627E7AB006AF402 /* ThreeLayerViewController.m in Sources */,
 				C5BD53D2262FC5290053D7E9 /* DouyinLikeView.m in Sources */,
-				C5C43E8926259689006AF402 /* TestViewController.m in Sources */,
 				C5C43EEA26282677006AF402 /* EmitterLayerViewController.m in Sources */,
 				C5C43EFD262840AC006AF402 /* CustomLikeButton.m in Sources */,
 				C5C43EC02627D29E006AF402 /* ReplicatorView.m in Sources */,
+				C5099DAC263151CF00ED0BE7 /* DoorTransition.m in Sources */,
 				C5C43EAA2626E225006AF402 /* GradientLayerViewController.m in Sources */,
 				C50854A9262980780039151A /* PigViewController.m in Sources */,
 				C5C43E9F26269532006AF402 /* TextLayerLabel.m in Sources */,

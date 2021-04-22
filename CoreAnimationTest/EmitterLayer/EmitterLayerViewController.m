@@ -33,7 +33,7 @@
     [self.view.layer addSublayer:self.colorBallLayer];
     
     //粒子发射形状的中心点
-    self.colorBallLayer.emitterPosition = CGPointMake(self.view.bounds.size.width, 0);
+    self.colorBallLayer.emitterPosition = CGPointMake(self.view.bounds.size.width, 100);
     //发射源的尺寸大小
     self.colorBallLayer.emitterSize = self.view.frame.size;
     //发射模式
